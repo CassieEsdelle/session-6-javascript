@@ -1,16 +1,19 @@
 //console.log("Hello everyone")
-function sayHey(person) {
-    console.log('hey! ' + person);
-    return person
+function greeting(person) {
+    return 'hey!' + person;
 }
 
-sayHey('Eleora')
-//function conversation() {
-    //sayHey();
-   // console.log('How are you?');
-    //console.log('Goodbye');
+function sayHey(person) {
+    greeting(person)
+}
 
-//}
-//conversation();
+
+//sayHey("Eleora")
+function conversation(person, topic, singing) {
+    console.log("Do you like " + topic);
+    console.log("And do you like the person" + person)
+    console.log("what is your favourite song" + singing)
+}
+conversation("Princess", 'Dolls', 'You are my sunshine');
 
 
